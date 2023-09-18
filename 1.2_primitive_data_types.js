@@ -30,11 +30,11 @@ b)string
 //create three different ways to declare variables
 var x = 10; // function-scoped hoisted i.e x can be called for execution before its decleration
             //  within the code order
-console.log(`variable x is declared and assigned value${x}`)
+console.log(`variable x is declared and assigned value ${x}`)
 let y = 11; //block-scoped, reassigned but cannot be redeclared within the same scope (block, function)
-console.log(`variable y is declared and assigned value${y}`)
+console.log(`variable y is declared and assigned value ${y}`)
 const z = 12; // block-scoped and cannot be reassigned after they are initialized (constants)
-console.log(`constant x is declared and assigned value${z}`)
+console.log(`constant x is declared and assigned value ${z}`)
 
 
 //declare a variable and reassign a value to it
